@@ -1,0 +1,23 @@
+{
+  "name": "manifest-crawler",
+  "version": "0.0.0",
+  "description": "A simple crawler for web manifest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web manifest",
+    "crawler"
+  ],
+  "author": "Guillaume Marty <edo999@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "gulp": "^3.8.11",
+    "gulp-svn": "^1.0.4",
+    "nano": "^6.1.2",
+    "request": "^2.55.0",
+    "run-sequence": "^1.0.2"
+  }
+}
